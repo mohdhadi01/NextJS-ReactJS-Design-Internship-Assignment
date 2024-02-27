@@ -34,7 +34,7 @@ function StoreItemCard() {
 
         <div className="card">
             {Store.map((product, index) => (<>
-                {product.trendingTitle ? (<p className='trendingIconDiv bg-orange-500 flex w-32 rounded-r-lg text-white justify-center p-1.5 mb-5 gap-2'><img src={product.trendingtitleIcon} alt="" />{product.trendingTitle}</p>) : null}
+                {product.trendingTitle ? (<p className='trendingIconDiv bg-orange-500 flex w-32 rounded-r-lg text-white justify-center p-1.5 mb-4 gap-2'><img src={product.trendingtitleIcon} alt="" />{product.trendingTitle}</p>) : null}
                 <div key={index} className="card flex mb-3 gap-7 mb-14">
                     <div className="imgDiv w-1/4 ">
                         <p className='index border-gray-300 flex justify-center items-center border w-10 h-10 rounded-full text-lg text-gray-600'>{product.index}</p>
@@ -57,7 +57,7 @@ function StoreItemCard() {
                         {product.recieverRating ? (product.recieverRating.map((point, index) => (<>
                             <p className="card-text  text-gray-500 mt-2 ml-5 flex gap-2" key={index}><img src={blueTickIcon} alt="" /> {point}</p>
                         </>))) : null}
-                        <p className='mt-4 text-sky-500 flex gap-1 cursor-pointer'>Show more <img src={downArrow} alt="" /></p>
+                        <p className='mt-4 text-sky-500 flex gap-1 cursor-pointer mb-8'>Show more <img src={downArrow} alt="" /></p>
                     </div>
                     <div className="RatingCard w-1/4 flex flex-col justify-between items-center">
                         <div className="ratingContainer flex flex-col justify-center bg-sky-100 bg-opacity-45 h-28 w-1/2 rounded-b-xl">
@@ -65,7 +65,7 @@ function StoreItemCard() {
                             <p className="card-text text-center mt-2 text-sm text-gray-500">{product.comment}</p>
                             <p className='StarRaing flex gap-0.5 mt-2 justify-center'>{generateStarIcons(product.star)}</p>
                         </div>
-                        <button className='ViewBtn w-56 text-white bg-blue-500 h-12 rounded-xl '>View</button>
+                        <button className='ViewBtn w-56 text-white bg-blue-500 h-12 rounded-xl mb-10'>View</button>
 
 
                     </div>
