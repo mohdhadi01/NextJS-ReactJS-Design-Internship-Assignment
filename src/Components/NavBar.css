@@ -1,0 +1,33 @@
+header {
+  height: 75px;
+  width: 100vw;
+  background-color: #212731;
+  color: #adb2b9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  font-size: 0.95rem;
+  font-weight: lighter;
+}
+.searchBox {
+  height: 40px;
+  width: 260px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 10px;
+}
+.searchInput {
+  height: 35px;
+  width: 210px;
+  border: none;
+  outline: none;
+}
+.NavOptions:hover {
+  cursor: pointer;
+  color: white;
+}
+

@@ -1,0 +1,17 @@
+.timeSection {
+  font-size: 0.9rem;
+  color: rgb(117, 116, 116);
+  display: flex;
+  gap: 8px;
+}
+.topSelect {
+  color: rgb(117, 116, 116);
+  margin-left: auto;
+}
+.midText {
+  font-size: 0.86rem;
+  margin-right: 15px;
+}
+.midTextIcon {
+  height: 17px;
+}

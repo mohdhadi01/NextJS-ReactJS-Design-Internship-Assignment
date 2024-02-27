@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+}
+.MainScreen {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main {
+  width: 65vw;
+  padding-top: 30px;
+}
+.WebIntro {
+  font-size: 2.9rem;
+  font-weight: 200;
+  color: #212731;
+}
+

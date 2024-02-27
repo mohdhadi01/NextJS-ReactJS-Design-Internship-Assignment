@@ -1,0 +1,31 @@
+footer {
+  height: 430px;
+  width: 100vw;
+  background-color: #212731;
+  color: #adb2b9;
+  display: flex;
+  padding-top: 70px;
+  justify-content: space-evenly;
+}
+select {
+  background-color: transparent;
+  color: #adb2b9;
+  border: none;
+}
+.footerTitle {
+  color: white;
+  font-size: 1rem;
+}
+.categoriesSection {
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  cursor: pointer;
+}
+.countryOption {
+  height: 20px;
+  width: 110px;
+  position: relative;
+  top: 20%;
+}
